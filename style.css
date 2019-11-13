@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+
+body {
+  margin: 1vw 5vw 0px 5vw;
+  padding: 0px;
+  background-color:#000;
+  color: #eee;
+  font-family:'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+}
+
+#title {
+  color:white;
+}
+.photoTitle{
+  color:#000;
+}
+
+.photoTitles{
+  color:white;
+  font-size: 20px;
+  padding-top: 4vmin;
+}
+body * {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: bolder;
+  margin-left: 1vmin;
+}
+h3 {
+  font-weight: bolder;
+  margin-top: 0;
+  margin-left: 1vmin;
+}
+
+h4 {
+  margin: 0;
+}
+
+#outputElement {
+  color: #eee;
+}
+
+#outputParagraph {
+  color: #fff;
+}
+
+#photoGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2vmin;
+  font-size: 1.2rem;
+  color:white;
+}
+
+.factItem {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1vmin;
+  color: #eee;
+  border: 2px solid #eee;
+  border-radius: 0.25vmin;
+  height: 100%;
+}
+
+.photoString ul {
+  flex-grow: 1;
+}
+
+.photoCharacter img {
+  width: 100%;
+  padding:1vmin;
+  border-radius: 0.25vmin;
+}
